@@ -1,5 +1,4 @@
-export default (voice) =>
-  ({
+const voiceMap = {
     bm: "banmai",
     ln: "lannhi",
     lm: "leminh",
@@ -9,4 +8,6 @@ export default (voice) =>
     ls: "linhsan",
     mq: "minhquang",
     nl: "ngoclam",
-  }[voice]);
+  };
+
+export default (voice) => voiceMap[voice];

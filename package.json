@@ -1,23 +1,22 @@
 {
-  "name": "discordjs",
+  "name": "vinaspeak",
   "version": "1.0.0",
+  "description": "",
   "main": "src/index.js",
-  "author": "Jake Runzer",
-  "license": "MIT",
   "scripts": {
-    "dev": "nodemon .",
-    "start": "node ."
+    "start": "node src/index.mjs"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@discordjs/builders": "^0.8.1",
-    "@discordjs/rest": "^0.1.0-canary.0",
-    "discord-api-types": "^0.24.0",
-    "discord.js": "^13.3.0"
+    "@discordjs/voice": "^0.7.5",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "^0.7.9",
+    "node-fetch": "^3.1.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
-  },
-  "engines": {
-    "node": ">=16.6.0"
+    "nodemon": "^2.0.15"
   }
 }
